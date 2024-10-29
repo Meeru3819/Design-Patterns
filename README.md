@@ -38,7 +38,7 @@ To clone and run the repository, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Meeru3819/Design-Patterns.git
+   git clone https://github.com/Meeru3819/Java-Design-Patterns.git
    ```
 2. Alternatively, import the project into an IDE like IntelliJ or Eclipse and run individual examples.
 
