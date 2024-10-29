@@ -6,8 +6,8 @@ import java.util.Map;
 public class HttpRequest {
 
     //Required params
-    private String url;
-    private String method;
+    private final String url;
+    private final String method;
 
     //Optional Params
     private final Map<String, String> headers;
@@ -37,8 +37,8 @@ public class HttpRequest {
         private final String url;
         private final String method;
 
-        private Map<String, String> headers = new HashMap<>();
-        private Map<String, String> queryParams = new HashMap<>();
+        private final Map<String, String> headers = new HashMap<>();
+        private final Map<String, String> queryParams = new HashMap<>();
         private int timeout;
 
         public Builder(String url, String method) {
