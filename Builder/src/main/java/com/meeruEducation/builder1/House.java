@@ -42,9 +42,9 @@ public class House {
     public static class Builder {
 
         //required parameters
-        private String foundation;
-        private int rooms;
-        private int bathRooms;
+        private final String foundation;
+        private final int rooms;
+        private final int bathRooms;
 
         //optional parameters
         private boolean hasGarden = false;
